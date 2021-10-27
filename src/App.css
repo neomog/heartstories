@@ -1,0 +1,62 @@
+* {
+  font-family: 'seaweed script'
+}
+body {
+  overflow: hidden;
+  box-sizing: border-box;
+  
+}
+
+.hero {
+  background-image: url("./Components/jss1.jpg");
+  width: auto;
+  height: auto;
+  background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.MuiContainer-root {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 0;
+    padding-right: 24px;
+}
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.searchBar {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.searchBar input[type=text] {
+  margin-top: 10px;
+  padding: 6px;
+  border: 1px solid hsl(203, 89%, 64%);
+  border-radius: 3px;
+  font-size: 17px;
+  width: 35%;
+  height: 25px 
+}
